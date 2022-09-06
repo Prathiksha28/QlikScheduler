@@ -1,0 +1,8 @@
+/Users/grootan/Documents/java files/AWS_first_lambda_function/src/main/java/com/grootan/scheduler/rules/SetTarget.java
+/Users/grootan/Documents/java files/AWS_first_lambda_function/src/main/java/com/grootan/scheduler/clientBuilder/DynamoDbClient.java
+/Users/grootan/Documents/java files/AWS_first_lambda_function/src/main/java/com/grootan/scheduler/dynamodbtable/RulesTableClass.java
+/Users/grootan/Documents/java files/AWS_first_lambda_function/src/main/java/com/grootan/scheduler/rules/PutRule.java
+/Users/grootan/Documents/java files/AWS_first_lambda_function/src/main/java/com/grootan/scheduler/ScheduleFunction.java
+/Users/grootan/Documents/java files/AWS_first_lambda_function/src/main/java/com/grootan/scheduler/TriggerFunction.java
+/Users/grootan/Documents/java files/AWS_first_lambda_function/src/main/java/com/grootan/scheduler/clientBuilder/EventbridgeClient.java
+/Users/grootan/Documents/java files/AWS_first_lambda_function/src/main/java/com/grootan/scheduler/rules/DeleteRule.java

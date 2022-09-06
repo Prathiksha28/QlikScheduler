@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Scheduler - QlikScheduler
+
+Globals:
+  Function:
+    Timeout: 20
+
+Resources:
+  Scheduler:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: com.grootan.scheduler.ScheduleFunction::handleRequest
+      Runtime: java11
+      Architectures:
+        - x86_64
+      MemorySize: 512
+    Environment:
+      Variables:
+        accessKey:
+          Ref: accessKey
+        secretKey:
+          Ref: secretKey
+        serviceEndpoint:
+          Ref: serviceEndpoint
+        signingRegion:
+          Ref: signingRegion

@@ -1,0 +1,12 @@
+{
+  "UserName": "arun",
+  "ScheduleName": "firstTest",
+  "requestUrl": "https://j7akq5xscc.execute-api.ap-south-1.amazonaws.com/post_Success",
+  "RequestBody":
+  {
+    "param1": "qwsd",
+    "param2": "qwesas"
+  },
+  "Cron": "cron(15 13 * * ? *)",
+  "method": "post"
+}

@@ -1,0 +1,8 @@
+com/grootan/scheduler/clientBuilder/EventbridgeClient.class
+com/grootan/scheduler/rules/PutRule.class
+com/grootan/scheduler/rules/SetTarget.class
+com/grootan/scheduler/TriggerFunction.class
+com/grootan/scheduler/dynamodbtable/RulesTableClass.class
+com/grootan/scheduler/ScheduleFunction.class
+com/grootan/scheduler/rules/DeleteRule.class
+com/grootan/scheduler/clientBuilder/DynamoDbClient.class
